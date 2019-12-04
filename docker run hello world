@@ -1,0 +1,18 @@
+[0;1;32m●[0m docker.service - Docker Application Container Engine
+   Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Wed 2019-12-04 00:33:54 PST; 3min 25s ago
+     Docs: https://docs.docker.com
+ Main PID: 10400 (dockerd)
+   CGroup: /system.slice/docker.service
+           └─10400 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+
+Dec 04 00:33:53 ubuntu dockerd[10400]: time="2019-12-04T00:33:53.320598313-08:00" level=warning msg="Your kernel does not support cgroup rt runtime"
+Dec 04 00:33:53 ubuntu dockerd[10400]: time="2019-12-04T00:33:53.323104082-08:00" level=info msg="Loading containers: start."
+Dec 04 00:33:53 ubuntu dockerd[10400]: time="2019-12-04T00:33:53.659119965-08:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Dec 04 00:33:53 ubuntu dockerd[10400]: time="2019-12-04T00:33:53.884381481-08:00" level=info msg="Loading containers: done."
+Dec 04 00:33:53 ubuntu dockerd[10400]: time="2019-12-04T00:33:53.887230048-08:00" level=warning msg="failed to retrieve runc version: unknown output format: runc version spec: 1.0.1-dev\n"
+Dec 04 00:33:54 ubuntu dockerd[10400]: time="2019-12-04T00:33:54.165135949-08:00" level=info msg="Docker daemon" commit=2d0083d graphdriver(s)=overlay2 version=18.09.7
+Dec 04 00:33:54 ubuntu dockerd[10400]: time="2019-12-04T00:33:54.165270140-08:00" level=info msg="Daemon has completed initialization"
+Dec 04 00:33:54 ubuntu systemd[1]: Started Docker Application Container Engine.
+Dec 04 00:33:54 ubuntu dockerd[10400]: time="2019-12-04T00:33:54.242376542-08:00" level=info msg="API listen on /var/run/docker.sock"
+Dec 04 00:35:44 ubuntu systemd[1]: Started Docker Application Container Engine.
