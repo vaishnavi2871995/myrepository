@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std
+int main()
+{
+double num1=10,num2=10;
+cout<<"addition: "<<num1+num2;
+cout<<"substraction: "<<num1-num2;
+cout<<"miltiplication: "<<num1*num2;
+cout<<"division: "<<num1/num2;
+return 0;
+
+}
